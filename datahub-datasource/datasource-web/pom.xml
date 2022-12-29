@@ -29,6 +29,77 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- nacos配置中心 -->
+    <dependency>
+      <groupId>com.alibaba.cloud</groupId>
+      <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+    </dependency>
+    <!-- nacos：服务注册 -->
+    <dependency>
+      <groupId>com.alibaba.cloud</groupId>
+      <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+    </dependency>
+
+    <!-- spring boot相关依赖 -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+    <!-- spring boot相关依赖 -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-aop</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.baomidou</groupId>
+      <artifactId>mybatis-plus-boot-starter</artifactId>
+      <version>${mybatis-plus.version}</version>
+<!--      <exclusions>-->
+<!--        <exclusion>-->
+<!--          <groupId>org.springframework.boot</groupId>-->
+<!--          <artifactId>spring-boot-starter-logging</artifactId>-->
+<!--        </exclusion>-->
+<!--      </exclusions>-->
+    </dependency>
+
+    <!-- Redis-->
+<!--    <dependency>-->
+<!--      <groupId>redis.clients</groupId>-->
+<!--      <artifactId>jedis</artifactId>-->
+<!--      <version>${jedis.version}</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.springframework.data</groupId>-->
+<!--      <artifactId>spring-data-redis</artifactId>-->
+<!--      <version>${spring-data-redis.version}</version>-->
+<!--    </dependency>-->
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+
+    <!--Mysql数据库驱动-->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.neweasesoft.datahub</groupId>
+      <artifactId>common-domain</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+
   </dependencies>
 
 </project>
